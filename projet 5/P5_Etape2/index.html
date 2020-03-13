@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <title>Citatron</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row justify-content-center">
+            <h1 class="titre col-12 text-center">le Citatron</h1>
+            <img src="img/logo.png" alt="logo" class="logo col-6">
+        </div>
+    </header>
+    <section>
+        <div class="row justify-content-center">
+            <div class="cadre col-10 text-center" id="quote">               
+            </div>
+        </div>
+    </section>
+    <section class="container" id="menu">
+        <div class="row justify-content-center">
+            <div class="col-4 nombrePhrase">
+                <label for="inputNum">Nombre de phrase à afficher</label>
+                <select id="inputNum">
+                    <option selected>-</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="col-4 typePhrase">
+                <label for="inputType">Type de citations</label>
+                <select id="inputType">
+                    <option selected>-</option>
+                    <option>Sagesse</option>
+                    <option>Humour</option>
+                </select>
+            </div>
+            <div class="buttonMenu col-4">
+                <button class="btn" id="genQuote">Génerer</button>
+                <button class="btn" id="clean">Effacer citations</button>
+            </div>
+        </div>
+    </section>
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.logo{
+    max-width: 15%;
+    margin:  15px 0 15px 0;
+}
+.titre{
+    font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+}
+.btn{
+    border: 2px solid black;
+    background: cadetblue;
+}
+.btn:hover{
+    border: 2px solid black;
+    background: cadetblue;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px black;
+    opacity: 0.8;
+}
+.cadre{
+    border: 2px solid black;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 50px;
+    height: auto;
+    background: cornflowerblue;
+}
+header{
+    max-height: 400px;
+}
+#quote{
+    color: brown;
+    font-size: 150%;
+}
